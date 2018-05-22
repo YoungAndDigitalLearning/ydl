@@ -1,0 +1,6 @@
+[submodule "djangoblockchained-backend"]
+	path = djangoblockchained-backend
+	url = https://github.com/Re-Krass/djangoblockchained-backend
+[submodule "djangoblockchained-frontend"]
+	path = djangoblockchained-frontend
+	url = https://github.com/Re-Krass/djangoblockchained-frontend
