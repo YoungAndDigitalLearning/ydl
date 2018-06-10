@@ -8,6 +8,8 @@ Our organization: [YoungAndDigitalLearning](https://github.com/YoungAndDigitalLe
 
 Homepage: [www.ydlearning.com](http://35.185.239.7)
 
+Wikipage: [wiki](https://github.com/YoungAndDigitalLearning/DjangoBlockchained/wiki)
+
 ## Submodules
 
 - [Frontend](https://github.com/YoungAndDigitalLearning/djangoblockchained-frontend)
