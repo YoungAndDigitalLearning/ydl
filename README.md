@@ -10,9 +10,10 @@ Homepage: [www.ydlearning.com](http://35.185.239.7)
 
 Wikipage: [wiki](https://github.com/YoungAndDigitalLearning/DjangoBlockchained/wiki)
 
-## Submodules
+## Modules
 
-- [Frontend](https://github.com/YoungAndDigitalLearning/djangoblockchained-frontend)
-- [Backend](https://github.com/YoungAndDigitalLearning/djangoblockchained-backend)
+- [Main](https://github.com/YoungAndDigitalLearning/DjangoBlockchained)
+  - [Frontend](https://github.com/YoungAndDigitalLearning/djangoblockchained-frontend)
+  - [Backend](https://github.com/YoungAndDigitalLearning/djangoblockchained-backend)
 
 
