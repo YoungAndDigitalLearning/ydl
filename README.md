@@ -6,7 +6,7 @@ Welcome to our Project [DjangoBlockchained](https://github.com/YoungAndDigitalLe
 ## Links 
 Our organization: [YoungAndDigitalLearning](https://github.com/YoungAndDigitalLearning)
 
-Homepage: [www.ydlearning.com](http://35.185.239.7)
+Homepage: [www.ydlearning.ml](http://www.ydlearning.ml)
 
 Wikipage: [wiki](https://github.com/YoungAndDigitalLearning/DjangoBlockchained/wiki)
 
