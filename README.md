@@ -1,5 +1,5 @@
 
-# Young And Digital Learning <img src="https://lh3.googleusercontent.com/0qcFnYs-xpAh6c0kCG-V1hKKEuwvl8y3lTfK5-PQvNwy5r2dvjG_-LZGw5499dq0K-UThyWh-m8TbDWxRMuf1sUxoTwvryHd_LgdNqGYyRbBov7nr-sLXrpo8fCX67tLszw0C0_k=w1440-h670-no" width="38">
+# Young And Digital Learning <img src="https://lh3.googleusercontent.com/wA9udP26HzP6hCG5JTUKRh70cBlcJthMSoePE3y_HaVlkaF7fGtVt4pQsW1uX-CTeMJz6srb30vOBHReuhVmrZhJWZGkvIbg0oOpQ8oDLt3EQtkDV8egxIjAHsD0sofhTiLU9mU3=w1440-h681-no" width="38">
 
 Welcome to our Project [DjangoBlockchained](https://github.com/YoungAndDigitalLearning/DjangoBlockchained).
 
