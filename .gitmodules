@@ -1,6 +1,6 @@
-[submodule "djangoblockchained-backend"]
-	path = djangoblockchained-backend
-	url = https://github.com/Re-Krass/djangoblockchained-backend
-[submodule "djangoblockchained-frontend"]
-	path = djangoblockchained-frontend
-	url = https://github.com/Re-Krass/djangoblockchained-frontend
+[submodule "ydl-api"]
+	path = ydl-api
+	url = https://github.com/YoungAndDigitalLearning/ydl-api
+[submodule "ydl-front"]
+	path = ydl-front
+	url = https://github.com/YoungAndDigitalLearning/ydl-front
