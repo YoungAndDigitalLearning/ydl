@@ -1,6 +1,6 @@
 [submodule "ydl-api"]
 	path = ydl-api
-	url = https://github.com/YoungAndDigitalLearning/ydl-api
+	url = https://github.com/YoungAndDigitalLearning/ydl-api.git
 [submodule "ydl-front"]
 	path = ydl-front
-	url = https://github.com/YoungAndDigitalLearning/ydl-front
+	url = https://github.com/YoungAndDigitalLearning/ydl-front.git
