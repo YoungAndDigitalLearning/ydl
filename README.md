@@ -15,4 +15,8 @@ Wikipage: [wiki](https://github.com/YoungAndDigitalLearning/ydl/wiki)
 - [Main](https://github.com/YoungAndDigitalLearning/DjangoBlockchained)
   - [Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)
   - [Backend](https://github.com/YoungAndDigitalLearning/ydl-api)
+  
+  ```
 
+Other Names:
+YD Learning, Y&D Learning, Young & Digital Learning
