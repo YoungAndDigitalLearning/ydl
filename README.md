@@ -12,7 +12,7 @@ Wikipage: [wiki](https://github.com/YoungAndDigitalLearning/ydl/wiki)
 
 ## Modules
 
-- [Main](https://github.com/YoungAndDigitalLearning/DjangoBlockchained)
+- [Main](https://github.com/YoungAndDigitalLearning/ydl)
   - [Frontend](https://github.com/YoungAndDigitalLearning/ydl-front)
   - [Backend](https://github.com/YoungAndDigitalLearning/ydl-api)
   
