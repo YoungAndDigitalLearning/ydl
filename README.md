@@ -3,6 +3,11 @@
 
 Welcome to our Project [ydl](https://github.com/YoungAndDigitalLearning/ydl).
 
+This project was completed for the module "Programming Lab: Social Networking" at TU Berlin.
+
+This website was divided into the frontend and backend components.
+This allows better customizability.
+
 ## Links 
 Our organization: [YoungAndDigitalLearning](https://github.com/YoungAndDigitalLearning)
 
