@@ -8,6 +8,7 @@ This project was completed for the module "Programming Lab: Social Networking" a
 This website was divided into the frontend and backend components.
 This allows better customizability. Below you'll find the links to the modules. 
 
+
 ## Links 
 Our organization: [YoungAndDigitalLearning](https://github.com/YoungAndDigitalLearning)
 
