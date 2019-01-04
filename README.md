@@ -1,5 +1,5 @@
 
-# Young And Digital Learning <img src="https://ydlearning.com/.media/logo-ydl/SVG/YDL-Logo.svg" height="35">
+# Young And Digital Learning <img src="https://ydlearning.com/static/.media/logo-ydl/SVG/YDL-Logo.svg" height="35">
 
 Welcome to our Project [ydl](https://github.com/YoungAndDigitalLearning/ydl).
 
