@@ -34,6 +34,9 @@ services:
       DB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
       DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Missing secret key}
       DJANGO_DEBUG: "1"
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1,backend}
+      ENABLE_DEMO_SEED: ${ENABLE_DEMO_SEED:-0}
+      DEMO_PASSWORD: ${DEMO_PASSWORD:-}
     depends_on:
       database:
         condition: service_healthy
