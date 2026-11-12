@@ -1,0 +1,14 @@
+.git
+**/.git
+**/node_modules
+**/dist
+**/coverage
+**/.DS_Store
+**/__pycache__
+**/.env
+**/.env.*
+ydl-front/docs
+**/database_dump
+**/*.md
+**/*.dgen
+

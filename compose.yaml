@@ -1,0 +1,85 @@
+name: ydl
+
+services:
+  database:
+    image: mariadb:10.5
+    environment:
+      MARIADB_DATABASE: skb
+      MARIADB_USER: ydl
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD in .env}
+    volumes:
+      - ydl_database:/var/lib/mysql
+    networks:
+      - ydl_network
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/backend.Dockerfile
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      DB_HOST: database
+      DB_PORT: "3306"
+      DB_NAME: skb
+      DB_USER: ydl
+      DB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Missing secret key}
+      DJANGO_DEBUG: "1"
+    depends_on:
+      database:
+        condition: service_healthy
+    networks:
+      - ydl_network
+    healthcheck:
+      test:
+        - CMD
+        - /app/ydl_api/.venv/bin/python
+        - -c
+        - "import urllib.request; r = urllib.request.urlopen('http://127.0.0.1:8000/announcements/', timeout=3); assert r.status == 200"
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.Dockerfile
+    platform: linux/amd64
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - ydl_network
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "require('http').get('http://127.0.0.1:8080/api/announcements/', r => { r.resume(); process.exit(r.statusCode === 200 ? 0 : 1) }).on('error', () => process.exit(1))"
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 120s
+
+networks:
+  ydl_network:
+    name: ydl-local
+    driver: bridge
+
+volumes:
+  ydl_database:
