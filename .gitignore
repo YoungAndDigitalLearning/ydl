@@ -18,3 +18,9 @@ selenium-debug.log
 
 .env
 .temp/
+
+
+/screenshots/.browser-profile/
+/screenshots/node_modules/
+
+**/node_modules/
