@@ -8,7 +8,12 @@
     "capture:login": "node capture.cjs login",
     "capture:all": "node capture.cjs all",
     "capture:list": "node capture.cjs list",
-    "capture:manual": "node capture.cjs manual"
+    "capture:manual": "node capture.cjs manual",
+    "capture:login:student": "node capture.cjs login:student",
+    "capture:login:teacher": "node capture.cjs login:teacher",
+    "capture:student": "node capture.cjs student",
+    "capture:teacher": "node capture.cjs teacher",
+    "capture:mobile": "node capture.cjs mobile"
   },
   "keywords": [],
   "author": "",
