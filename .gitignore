@@ -21,6 +21,7 @@ selenium-debug.log
 
 
 /screenshots/.browser-profile/
+/screenshots/.browser-profiles/
 /screenshots/node_modules/
 /screenshots/output/
 
